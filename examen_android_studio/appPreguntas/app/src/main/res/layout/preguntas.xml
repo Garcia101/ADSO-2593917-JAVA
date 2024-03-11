@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etq_datos"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="imprimir"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/etq_fecha_inicio"
+            android:layout_width="401dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="7dp"
+            android:gravity="left"
+            android:text="fecha - inicio :"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/etq_fecha_fin"
+            android:layout_width="401dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:gravity="left"
+            android:text="fecha - fin :"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/etq_correctas"
+            android:layout_width="401dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:gravity="left"
+            android:text="correctas :"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/etq_incorrectas"
+            android:layout_width="401dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:gravity="left"
+            android:text="incorrectas :"
+            android:textSize="23dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

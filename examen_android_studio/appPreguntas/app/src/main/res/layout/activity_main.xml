@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity=""
+
+    >
+
+    <LinearLayout
+        android:layout_width="424dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="293dp"
+            android:layout_height="127dp"
+            android:src="@drawable/foto"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Correo:"
+            android:textSize="22dp"
+            android:paddingLeft="35dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/campoCorreo"
+            android:layout_width="355dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="35dp"
+            android:text="andres@gmail.com"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Contraseña:"
+            android:textSize="22dp"
+            android:paddingLeft="35dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/campoContraseña"
+            android:layout_width="355dp"
+            android:layout_height="49dp"
+            android:inputType="textPassword"
+            android:text="12345"
+            android:gravity="center"
+            />
+
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:onClick="validarIngreso"
+            android:text="Ingresar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="178dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="No compartas tus datos con otras personas:"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#CD111A"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

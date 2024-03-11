@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="106dp"
+            android:gravity="center"
+            android:text="nuevo cuestionario"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="293dp"
+            android:layout_height="127dp"
+            android:src="@drawable/foto"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="usuario :"
+            android:gravity="center"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/etq_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="imprimir"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/etq_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="fecha_actual"
+            android:gravity="center"
+            android:textSize="26dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_empezar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="EMPEZAR"
+            android:onClick="cambiarActivity"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerQuestions"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/etq_nombre"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/etq_fecha"
+            android:layout_marginTop="5dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/etq_id"
+            android:layout_marginTop="5dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="5sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text=""
+            ></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/etq_pregunta"
+                android:gravity="center"
+                ></TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/etq_img"
+                ></ImageView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/container_buttons"
+                android:layout_marginTop="20dp"
+                ></RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:layout_gravity="bottom|center"
+        android:gravity="bottom"
+        android:layout_margin="15dp"
+        android:backgroundTint="#0028A1"
+        android:textSize="15sp"
+        android:onClick="siguiente"
+
+        ></Button>
+
+
+</FrameLayout>
