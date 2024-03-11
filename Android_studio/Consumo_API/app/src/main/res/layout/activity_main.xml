@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/botonGET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="consumoGET"
+            android:text="GET"
+            />
+
+        <Button
+            android:id="@+id/botonPOST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="consumoPOST"
+            android:text="POST" />
+
+        <Button
+            android:id="@+id/botonIMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="consumoIMG"
+            android:text="IMG" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="293dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/etq_respuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Datos Personas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="324dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/etq_IMG"
+            android:layout_width="313dp"
+            android:layout_height="264dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=""
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
