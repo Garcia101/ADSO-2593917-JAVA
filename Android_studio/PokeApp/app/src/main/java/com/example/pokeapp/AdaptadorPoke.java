@@ -73,7 +73,11 @@ public class AdaptadorPoke extends RecyclerView.Adapter< AdaptadorPoke.ViewHolde
                 public void onClick(View v) {
                     Intent intent = new Intent(contexto, Detalle.class);
                     intent.putExtra("nombrePokemon", datos.getNombre());
-                    intent.putExtra("otroDato", "Valor");
+                    intent.putExtra("urlPokemon", datos.getUrl());
+                    System.out.println("--------------------------");
+                    System.out.println(datos.getNombre());
+                    System.out.println(datos.getUrl());
+                    System.out.println("--------------------------");
                     contexto.startActivity(intent);
                     Toast.makeText( contexto, datos.getNombre(), Toast.LENGTH_LONG ).show();
                 }

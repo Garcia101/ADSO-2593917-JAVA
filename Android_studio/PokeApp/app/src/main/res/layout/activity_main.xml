@@ -7,6 +7,7 @@
     android:background="@android:color/white"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:gravity="bottom"
     >
 
     <ImageView
@@ -18,12 +19,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        >
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_contactos"
             android:layout_width="match_parent"
-            android:layout_height="558dp">
+            android:layout_height="551dp">
 
         </androidx.recyclerview.widget.RecyclerView>
 
@@ -33,15 +35,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="bottom">
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/btnAtras"
             android:layout_width="10dp"
             android:layout_height="70dp"
             android:layout_weight="1"
+            android:background="@drawable/button"
             android:text="BACK"
-            android:backgroundTint="#009688"
             android:textColor="@android:color/white"
             android:textSize="25dp"
             android:textStyle="bold"
@@ -52,12 +55,11 @@
             android:layout_width="10dp"
             android:layout_height="70dp"
             android:layout_weight="1"
+            android:background="@drawable/button"
             android:text="NEXT"
-            android:backgroundTint="#009688"
             android:textColor="@android:color/white"
             android:textSize="25dp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
     </LinearLayout>
 

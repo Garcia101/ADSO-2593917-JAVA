@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                                 String nombre = pokemonObject.getString("name");
                                 String url = pokemonObject.getString("url");
                                 System.out.println(nombre);
+                                System.out.println(url);
                                 Pokemon pokemon = new Pokemon(nombre,url);
                                 listaPokemon.add(pokemon);
 
